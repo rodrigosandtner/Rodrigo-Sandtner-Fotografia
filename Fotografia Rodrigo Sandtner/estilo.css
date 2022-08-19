@@ -70,11 +70,11 @@
             padding-right: 10px;
             padding-left: 10px;
             margin-bottom: 5px;
-
+            transition: 2s;
         }
         .lista li:hover{
             background-color: #82BDE8;
-        
+            
         }
 
         .lista li a{
@@ -82,9 +82,9 @@
             color: rgb(208, 255, 239);
         }
 
-       .lista li a:hover{
+        /* .lista li a:hover{
             color: rgb(87, 0, 82);
-        }
+        } */
 
     .main{
         grid-area: main;
@@ -142,7 +142,7 @@
     justify-content: space-around;
     }
 
-.card{
+    .card{
     display: flex;
     flex-direction: column;
     border: solid 3px rgb(230, 227, 227);
@@ -153,9 +153,12 @@
     margin: 30px 0px 30px 0px;
     justify-content: space-between;
     overflow: hidden;
+    transition: 1s;
 }
-
-
+    .card:hover{
+        transform: scale(2,2);
+    }
+    
     .imagenCard{
         width: 100%;
         
