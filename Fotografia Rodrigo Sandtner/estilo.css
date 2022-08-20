@@ -73,8 +73,8 @@
             transition: 2s;
         }
         .lista li:hover{
-            background-color: #82BDE8;
-            
+            background-color: #cfc032;
+            transform: scale(1.5,1.5);
         }
 
         .lista li a{
@@ -100,7 +100,18 @@
         
     .main h1{   
             text-align: center;
-            }   
+            position: relative;
+            animation-name: animacionTexto;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;  
+        }
+            
+    @keyframes animacionTexto {
+        0%   {color: rgb(245, 226, 197); left:-400px;}
+        50%  {color: rgb(148, 238, 238); left:400px;}
+        100% {color: rgb(245, 226, 197); left:-399px;}
+    }
 
         .cajaImagen{ 
             display: flex;
