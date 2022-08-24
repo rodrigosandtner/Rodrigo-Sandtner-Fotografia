@@ -3,7 +3,7 @@
     font-family: 'Staatliches', cursive;
 }
 /* Aca comienza vista mobile*/
-.bodyContenedor{
+/* .bodyContenedor{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto 1fr 1fr 100px;
@@ -11,18 +11,18 @@
     "header"
     "main"
     "main"
-    "footer";
+    "footer"; 
 
-}
+}*/
 
     .header{
-        grid-area: header;
+        /* grid-area: header;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-items: center;
         align-items: center;
-        height: auto;
+        height: auto; */
         background-image: linear-gradient(to top, #02538b , rgb(12, 32, 97));
 }
 
@@ -57,7 +57,6 @@
             list-style-type: none;
             align-items: stretch;
             padding-left: 0px;
-
         }
 
         .lista li{
